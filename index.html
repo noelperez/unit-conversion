@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unit Conversion System<</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="code.js"></script>
+</head>
+<body>
+
+    <div class="header">
+        <h1>Unit Conversion System</h1>
+        <p>This is a simple, yet powerful unit conversion system. It allows you to convert between multiple unit systems. </p>
+
+        <h4>Usage:</h4>
+
+        <ol>
+            <li>Select a system unit.</li>
+            <li>Select the units you're converting from/to.</li>
+            <li>Enter a value in one of the fields and the result will be populated in
+                the corresponding field.</li>
+        </ol>
+
+
+    </div>
+
+
+<div class="center">
+
+    <span>System Unit: </span>
+    <div id="dimensionsSelector">
+        <!-- <option value="mass">Mass</option>
+        <option value="volume">Volumen</option>
+        <option value="temperature">Temperature</option>
+        <option value="length">Length</option>
+        <option value="time">Time</option> -->
+    </div>
+
+    <div class="from">
+
+        <p >From:</p>
+        <div class="unitsSelector" style="display: inline;"></div>
+        
+        <input type="text" id="fromTextField">
+
+    </div>
+
+    <div class="to">
+
+        <p >To:</p>
+        
+        
+        <div class="unitsSelector" style="display: inline;"></div>
+        
+        
+        <input type="text" id="toTextField">
+
+    </div>
+    
+    
+
+
+</div>
+
+    
+
+</body>
+</html>
